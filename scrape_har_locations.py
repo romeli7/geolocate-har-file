@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import List, Tuple
 
 # === CONFIGURATION ===
-HAR_FILE = "inputs/yourfilename.har"  # Replace with your HAR filename
+HAR_FILE = "inputs/example.har.json"  # Replace with your HAR filename
 OUTPUT_MAP = "outputs/ip_map.html"
 MAX_IPS = 50  # Limit to avoid API rate limiting
 
